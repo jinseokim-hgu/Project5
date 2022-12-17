@@ -3,7 +3,7 @@
 <mapper namespace="Student">
     <insert id="insertStudent">
         insert into STUDENT (name, student_number, major, phone_number, attendance, mail, gender, inhabit_type)
-        values (#{name}, #{student_number}, #{major}, #{phone-number}, #{attendance}, #{mail}, #{gender}, #{inhabit_type})
+        values (#{name}, #{student_number}, #{major}, #{phone_number}, #{attendance}, #{mail}, #{gender}, #{inhabit_type})
     </insert>
     <update id="updateStudent">
         update STUDENT
