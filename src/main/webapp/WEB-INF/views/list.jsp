@@ -33,14 +33,14 @@
     </style>
     <script>
         function delete_ok(id){
-            var a = confirm("정말로 삭제하겠습니까?");
-            if(a) location.href='delete/' + id;
+            let a = confirm("정말로 삭제하겠습니까?");
+            if(a) location.href='deleteok/' + id;
         }
     </script>
 </head>
 <body>
-<h1>자유게시판</h1>
-
+<h1>팀 명단</h1>
+<a href="../login/logout">로그아웃</a>
 <table id="list" width="90%">
     <tr>
         <th>번호</th>

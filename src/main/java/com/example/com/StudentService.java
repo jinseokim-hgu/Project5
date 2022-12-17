@@ -1,4 +1,4 @@
-package com.example.util;
+package com.example.com;
 
 import com.example.bean.StudentVO;
 

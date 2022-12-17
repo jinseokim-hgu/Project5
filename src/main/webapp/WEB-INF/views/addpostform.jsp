@@ -28,12 +28,7 @@
         <option value="상담심리사회복지학부">상담심리사회복지학부</option>
     </select></td></tr>
     <tr><td>전화번호:</td><td><input type="text" name="phone_number"/></td></tr>
-    <tr><td>출결체크:</td>
-      <td>
-        <input type="radio" id="attend" name="attendance" value="출석"/><label for="attend">출석</label><br>
-        <input type="radio" id="absent" name="attendance" value="결석"/><label for="absent">결석</label><br>
-      </td>
-    </tr>
+    <tr><td>출결체크:</td><td><input type="text" name="attendance"/></td></tr>
     <tr><td>이메일:</td><td><input type="text" name="mail"/></td></tr>
     <tr><td>성별:</td>
       <td>

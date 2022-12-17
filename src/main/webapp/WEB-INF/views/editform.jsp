@@ -30,12 +30,7 @@
 			<form:option value="상담심리사회복지학부">상담심리사회복지학부</form:option>
 		</form:select></td></tr>
 		<tr><td>전화번호:</td><td><form:input path="phone_number"/></td></tr>
-		<tr><td>출결체크:</td>
-			<td>
-				<form:radiobutton path="attendance" value="출석" label="출석"/>
-				<form:radiobutton path="attendance" value="결석" label="결석"/>
-			</td>
-		</tr>
+		<tr><td>출결체크:</td><td><form:input path="attendance"/></td></tr>
 		<tr><td>이메일:</td><td><form:input path="mail"/></td></tr>
 		<tr><td>성별:</td>
 			<td>
